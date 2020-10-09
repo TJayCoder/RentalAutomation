@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "124744395368",
+    "firebase_url": "https://rentalautomation-fe95a.firebaseio.com",
+    "project_id": "rentalautomation-fe95a",
+    "storage_bucket": "rentalautomation-fe95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124744395368:android:c50280da12fe6a29c069dd",
+        "android_client_info": {
+          "package_name": "com.example.rentalautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124744395368-gcb0jgogojthkk907ecfo00qeeek3upj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentalautomation",
+            "certificate_hash": "291b4b8fd3ced5be6ef7b12d9ca61e9464600012"
+          }
+        },
+        {
+          "client_id": "124744395368-nqldhrlqcirodpvn9f4id21m8dvqojpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentalautomation",
+            "certificate_hash": "d9f8db3b723d94ea7698b3174b6ca86902a16d4e"
+          }
+        },
+        {
+          "client_id": "124744395368-pe6sm7q736nbaqoims5atd60cbvtena0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbCHB6y0l3iluir7m4fi8VM0F7jXNust0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124744395368-pe6sm7q736nbaqoims5atd60cbvtena0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

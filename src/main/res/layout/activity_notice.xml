@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#861C6D1C"
+    tools:context=".Notice">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txtFullnameNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Full name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/SurnameNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/IDPassportNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ID/Passport Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/CellNumberNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Cell Number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/EmailNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/BuildingnameNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Building name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/UnitnumberNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Unit number"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/DatemovingoutNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Date moving out"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refund Information" />
+
+            <EditText
+                android:id="@+id/AccountHoldersNameNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Account Holders Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/BankNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bank"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/AccountNumberNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Account Number"
+                android:inputType="number|text" />
+
+            <EditText
+                android:id="@+id/BranchCodeNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Branch Code"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/TypeofAccountNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Type of Account"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btnSubmitNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+
+</ScrollView>
